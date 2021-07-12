@@ -9,13 +9,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './components/template/sidenav/sidenav.component'; 
 import {MatListModule} from '@angular/material/list'; 
-import {MatIconModule} from '@angular/material/icon'; 
+import {MatIconModule} from '@angular/material/icon';
+import { HomeComponent } from './views/home/home.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SidenavComponent,
+    HomeComponent,
 
   ],
   imports: [
