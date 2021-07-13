@@ -10,7 +10,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { SidenavComponent } from './components/template/sidenav/sidenav.component'; 
 import {MatListModule} from '@angular/material/list'; 
 import {MatIconModule} from '@angular/material/icon';
-import { HomeComponent } from './views/home/home.component'; 
+import { HomeComponent } from './views/home/home.component';
+import { InputsComponent } from './views/inputs/inputs.component';
+import { OutsComponent } from './views/outs/outs.component'; 
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { HomeComponent } from './views/home/home.component';
     HeaderComponent,
     SidenavComponent,
     HomeComponent,
+    InputsComponent,
+    OutsComponent,
 
   ],
   imports: [
