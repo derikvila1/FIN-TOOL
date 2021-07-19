@@ -13,6 +13,11 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './views/home/home.component';
 import { InputsComponent } from './views/inputs/inputs.component';
 import { OutsComponent } from './views/outs/outs.component'; 
+import { MatInputModule} from '@angular/material/input'
+import {MatSelectModule} from '@angular/material/select'; 
+import {MatButtonModule} from '@angular/material/button'; 
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { OutsComponent } from './views/outs/outs.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    MatSelectModule,
+    MatButtonModule,
+    FormsModule,
+    HttpClientModule,
     
   ],
   providers: [],
