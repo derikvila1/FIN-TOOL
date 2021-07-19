@@ -18,6 +18,7 @@ export class InputsService {
 
   async cadastrar(data: InputsCreateDto): Promise<resultDto>{
     let input = new Inputs()
+    console.log(data);
     input.userId = data.userId
     input.value = data.value
     input.category = data.category
